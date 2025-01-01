@@ -3,19 +3,19 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Banner from './Banner'
 import Model from "./Model"
 import Video from './Vedio'
-
-
+import ProductList from './ProductList';
 
 
 const Home = () => {
   return (
     <div>
-        <div >
-       <Banner />
-      <Model />
-      <Video />
+        
+         <Banner />
+         <ProductList />
+         <Model />
+          <Video />
 
-    </div>
+    
     </div>
     
   )

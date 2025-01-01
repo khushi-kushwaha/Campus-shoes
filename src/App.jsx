@@ -20,6 +20,7 @@ const App = () => {
             <Route path="/wishlist" element = {<Wishlist />} />
             <Route path= "/cart" element={<Cart />} />
             <Route path='/stores' element={<Stores />} />
+            {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
         
         <Footer />
